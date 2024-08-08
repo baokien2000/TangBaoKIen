@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide Input Number Arrow */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Movie Detail scroll bar */
+    /* custom Scroll bar */
+
+    .custo-scrol-bar::-webkit-scrollbar {
+      width: 4px !important;
+  }
+
+  .custo-scrol-bar::-webkit-scrollbar-thumb {
+      background-color: #252528;
+      border-radius: 0px;
+
+  }
+  .custo-scrol-bar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
